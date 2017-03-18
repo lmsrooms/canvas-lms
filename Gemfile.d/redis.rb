@@ -4,7 +4,7 @@ group :redis do
     gem 'redis-store', '1.1.4', github: 'ccutrer/redis-store', ref: '72db36c56c6563fc65f213dcf8a1b77ddd22d1bb'
   else
     gem 'redis-rails', '5.0.1'
-    gem 'redis-store', '1.2.0'
+    gem 'redis-store', '1.2.0', github: 'lmsrooms/redis-store', ref: '6000a71fcfa1a9e0b75d98d5314ca65835829065'
   end
 
   gem 'redis', '3.3.1'
